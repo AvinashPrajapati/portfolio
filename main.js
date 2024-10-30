@@ -3,92 +3,175 @@
 const data = {
     author: "Avinash Prajapati",
     contact: {
-        email: "avinash@example.com",
-        twitter: "https://twitter.com/yourprofile",
-        linkedin: "https://linkedin.com/in/yourprofile"
+        email: "aviavi61107@gmail.com",
+        twitter: "https://x.com/profile_avinash",
+        linkedin: "https://www.linkedin.com/in/avinash-prajapati-296918188?",
+        github: "https://github.com/AvinashPrajapati?tab=repositories"
     },
     skills: [
-            {
-                title: "Web Developement",
-                techs: [
-                    {
-                        type:'Frontend Tools',
-                        tools:[
-                            'Javascript',
-                            'ReactJS'
-                        ]
-                    },
-                    {
-                        type:'Backend Tools',
-                        tools:[
-                            'Javascript',
-                            'ReactJS'
-                        ]
-                    }
-                ]
-            },
-            {
-                title: "API Developement",
-                techs: [
-                    {
-                        type:'Tech Tools',
-                        tools:[
-                            'FastAPI',
-                            'Python(django)-DRF',
-                            'Flask API',
-                            'NodeJS API'
-                        ]
-                    }
-                ]
-            },
-         
-        ],
-    experience: [
         {
-            title: "Frontend Developer",
-            company: "Tech Solutions",
-            location: "City, Country",
-            start: "2 oct. 2023",
-            end: "15 dec. 2023",
-            responsibilities: "Developing responsive user interfaces using React.",
+            title: "Web Developement",
+            techs: [
+                {
+                    type: 'Frontend Tools',
+                    tools: [
+                        'ReactJS',
+                        'HTML & CSS',
+                        'JQuery',
+                        'Ajax',
+                    ]
+                },
+                {
+                    type: 'Backend Tools',
+                    tools: [
+                        'Python',
+                        'Javascript',
+                    ]
+                },
+                {
+                    type: 'Web Frameworks',
+                    tools: [
+                        'Python/Django',
+                        'NodeJS',
+                        'Flask',
+                        'FastAPI',
+                        'Tornado',
+                    ]
+                }
+            ]
         },
         {
-            title: "Intern",
-            company: "Web Innovations",
-            location: "City, Country",
-            start: "2 oct. 2023",
-            end: "15 dec. 2023",
-            responsibilities:
-                "Assisted in developing web applications and gained experience in front-end technologies.",
+            title: "API Developement",
+            techs: [
+                {
+                    type: 'API Framework',
+                    tools: [
+                        'FastAPI',
+                        'Python(django)-DRF',
+                        'Flask API',
+                        'Express',
+                    ]
+                }
+            ]
+        },
+        {
+            title: "Databases",
+            techs: [
+                {
+                    type: 'Integration in Application',
+                    tools: [
+                        'Sqlite',
+                        'Postgres',
+                        'Mangodb',
+                        'CockroachDB',
+                        'Mysql',
+                    ]
+                }
+            ]
+        },
+        {
+            title: "Others",
+            techs: [
+                {
+                    type: 'Server',
+                    tools: [
+                        'Web Deployment',
+                        'Software Architechture',
+                        'SaaS Development',
+
+                        'Websockets & channels',
+                    ]
+                },
+                {
+                    type: 'Desktop Applications',
+                    tools: [
+                        'Pyqt(Python) Desktop Software',
+                        'Sqlite3',
+                        'SQLAlchemy',
+                        'Pydantic',
+                    ]
+                }
+            ]
+        },
+        {
+            title: "Communication",
+            techs: [
+                {
+                    type: 'Language',
+                    tools: [
+                        'English',
+                        'Hindi',
+                        'Chinese Elementry',
+                    ]
+                },
+            ]
+        },
+
+    ],
+    experience: [
+        {
+            title: "Fullstack Developer",
+            company: "Onprice infotech Pvt Lmtd",
+            location: "Bhopal,State - MP, Country - India",
+            start: "2 oct. 2024",
+            end: "15 March. 2024",
+            responsibilities: [
+                "Component wise development of the application.", 
+                "Created more than 3 <b><span class='noted'>SAAS Web Application</span></b> using Python's Django Web Framework.",
+                'Data Flow Diagram generating using MySQL Workbench.',
+                "<b><span class='noted'>Live Search</span></b> using AJAX and Django Rest Framework.",
+                "Integrated the ML model (Leaves disease ditection) in Web application from scratch.",
+            ],
+            tools: ['Python', 'Django', 'ML Model Integration', 'Bootstrap', 'MySQL']
+        },
+        {
+            title: "Volunteer Software Developer",
+            company: "College Events",
+            location: "BIET Jhansi, India",
+            start: "Feb. 2020",
+            end: "March. 2020",
+            responsibilities: [
+                'Component wise development of the application.', 
+                'Basic image procesing with OpenCV.',
+                'Team Management.',
+            ],
+            tools: ['Python','Tkinter','OpenCV', 'PyQT/Python']
         },
     ],
     projects: [
         {
+            title: "E-commerce Site",
+            description: "An e-commerce platform built with React and Node.js.",
+            responsibilities: ['Python', 'Django', 'ML Model Integration', 'Bootstrap', ''],
+            link: "https://yourproject.com",
+            start: "2 Dec. 2024",
+            end: "15 dec. 2024",
+            tools: ['OpenCV-Python', 'PyQT-Python']
+        },
+        {
             title: "Personal Portfolio",
-            description:
-                "A responsive portfolio website showcasing my skills and projects.",
+            description: "A responsive portfolio website showcasing my skills and projects using Github Pages.",
+            responsibilities: [
+                "Git CLI & Github Pages.",
+                "Javascript's Localstorage.",
+            ],
             link: "https://yourportfolio.com",
             start: "2 oct. 2023",
             end: "15 dec. 2023",
+            tools: ['Javascript', 'HTML & CSS']
         },
-        {
-            title: "E-commerce Site",
-            description: "An e-commerce platform built with React and Node.js.",
-            link: "https://yourproject.com",
-            start: "2 oct. 2023",
-            end: "15 dec. 2023",
-        },
+        
     ],
     education: {
         qualifications: [
             {
-                degree: "Bachelor of Science in Computer Science",
-                college: "ABC University",
-                years: "2018 - 2022",
+                degree: "Bachelor of Technology in Computer Science",
+                college: "Bundelkhand institute of Egineering and Technology",
+                years: "2019 - 2023",
             },
         ],
     },
-    hobbies: ["Coding", "Reading", "Traveling", "Photography"],
+    hobbies: ["Code", "Comic(Manhwa)", "Solving Practical Problems", "Chinese Language"],
 };
 //
 document.addEventListener("DOMContentLoaded", () => {
@@ -96,35 +179,41 @@ document.addEventListener("DOMContentLoaded", () => {
     const emailElement = document.getElementById("contact_mail");
     const twitterElement = document.getElementById("twitter");
     const linkedinElement = document.getElementById("linkedin");
+    const githubElement = document.getElementById("github_repo");
 
     // Populate contact info
     nameElement.textContent = data.author;
     emailElement.innerHTML = `Email: <a href="mailto:${data.contact.email}">${data.contact.email}</a>`;
     twitterElement.innerHTML = `Twitter: <a href="${data.contact.twitter}" target="_blank">Visit profile</a>`;
     linkedinElement.innerHTML = `LinkedIn: <a href="${data.contact.linkedin}" target="_blank">Visit profile</a>`;
+    githubElement.innerHTML = `Github: <a href="${data.contact.github}" target="_blank">Visit Repo</a>`;
 
 
     // Populate experience
-    const experienceSection = document.querySelector(".experience");
+    const experienceSection = document.querySelector(".experience .exp_items");
     data.experience.forEach((job) => {
         const jobDiv = document.createElement("div");
         jobDiv.classList.add("job");
-        jobDiv.style.marginTop = '30px';
         jobDiv.innerHTML = `<h3 style="margin-bottom: 5px;">${job.title} at ${job.company}</h3>
                             <p style="margin: 8px 0px;font-size: 12px;color: grey;">${job.location} | ${job.start} - ${job.end}</p>
-                            <p style="margin-top: 5px;margin-bottom: 25px;">${job.responsibilities}</p>`;
+                            <div class="used_tool"><ul><span><b>Tool used :</b></span>${job.tools.map(tool => `<li>${tool}</li>`).join('')}</ul></div>
+                            <span><b>Achievements & Responsibilities :</b></span>
+                            <ul class="responsibility_item">${job.responsibilities.map(tool => `<li>${tool}</li>`).join('')}</ul>`;
         experienceSection.appendChild(jobDiv);
     });
 
     // Populate projects
-    const projectsList = document.querySelector(".projects");
+    const projectsList = document.querySelector(".projects .project_items");
     data.projects.forEach((project) => {
         const projectDiv = document.createElement("div");
         projectDiv.classList.add("project");
-        projectDiv.style.marginTop = '30px';
         projectDiv.innerHTML = `<h3 style="margin-bottom: 5px;">${project.title}</h3>
                                 <p style="margin: 8px 0px;font-size: 12px;color: grey;">${project.start} → ${project.end}</p>
+                                <div class="used_tool"><ul><span><b>Tool used :</b></span>${project.tools.map(tool => `<li>${tool}</li>`).join('')}</ul></div>
                                 <p style="margin-top: 5px;margin-bottom:5px;">${project.description}</p>
+                                <span><b>learnt & Achieved :</b></span>
+                                <ul class="responsibility_item">${project.responsibilities.map(tool => `<li>${tool}</li>`).join('')}</ul>
+                                
                                 <a style="font-size: 12px; font-weight:bold;" href="${project.link}" target="_blank">View Project</a>`;
         projectsList.appendChild(projectDiv);
     });
@@ -136,7 +225,7 @@ document.addEventListener("DOMContentLoaded", () => {
         eduDiv.classList.add("edu");
         eduDiv.style.marginTop = '30px'
         eduDiv.innerHTML = `<h3 style="margin-bottom:5px;">${qualification.degree}</h3>
-                            <p style="margin-top:5px;">${qualification.college} | ${qualification.years}</p>`;
+                            <p style="margin-top:5px;">${qualification.college} → ${qualification.years}</p>`;
         educationSection.appendChild(eduDiv);
     });
 
@@ -147,7 +236,7 @@ document.addEventListener("DOMContentLoaded", () => {
         li.textContent = hobby;
         hobbiesList.appendChild(li);
         hobbiesList.style.marginTop = '30px'
-        
+
     });
 
     // 

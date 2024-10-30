@@ -61,7 +61,30 @@ ul {
     list-style-type: none;
     padding: 0;
 }
-
+.noted{
+    color: #ed8d2d;
+}
+.responsibility_item{
+    list-style: disc;
+    margin: 5px;
+    margin-left: 20px;
+}
+.job, .project{
+    margin-bottom: 30px;
+    border-left: 2px solid green;
+    padding-left: 10px;
+}
+.project_items, .exp_items{
+    padding: 10px;
+    padding-top: 0px;
+    /* padding-bottom: 15px; */
+    max-height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+}
+.project:last-child, .job:last-child{
+    margin-bottom: 5px;
+}
 .project a {
     color: #4CAF50;
     text-decoration: none;
@@ -74,6 +97,7 @@ ul {
 .job h3{
     margin-bottom: 5px;
 }
+
 .job .job_location{
     margin: 8px 0px;font-size: 12px;color: grey;
 }
@@ -82,7 +106,7 @@ ul {
 }
 /*  */
 
-.skills ul, .hobbies ul {
+.skills ul, .hobbies ul{
     display: flex; /* Use flexbox for list items */
     flex-wrap: wrap; /* Allow items to wrap */
     padding: 0; /* Remove default padding */
@@ -91,7 +115,7 @@ ul {
     
 }
 
-.skills li, .hobbies li {
+.skills li, .hobbies li{
     background-color: #e7f5e2; /* Light green background for list items */
     padding: 10px 15px; /* Padding for list items */
     border-radius: 5px; /* Rounded corners */
@@ -99,6 +123,30 @@ ul {
     flex: 1 1 calc(25% - 10px); /* Flex-grow, shrink, and base size */
     text-align: center; /* Center text */
     max-width: fit-content;
+}
+
+.used_tool{
+    margin-bottom: 5px;
+}
+.used_tool ul {
+    display: flex; /* Use flexbox for list items */
+    flex-wrap: wrap; /* Allow items to wrap */
+    list-style-type: none; /* Remove bullet points */
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center;
+    margin: 0;
+    gap: 10px;
+    
+}
+
+.used_tool li {
+    background-color: #ddd; /* Light green background for list items */
+    padding: 2px 6px; /* Padding for list items */
+    border-radius: 5px; /* Rounded corners */
+    max-width: fit-content;
+    font-size: 12px;
+    text-wrap: nowrap;
+    font-weight: bold;
 }
 
 /*  */
