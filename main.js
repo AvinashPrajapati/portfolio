@@ -99,7 +99,7 @@ const data = {
                     type: 'Language',
                     tools: [
                         'English - Fluent',
-                        'Hindi - FLuent',
+                        'Hindi - Fluent',
                     ]
                 },
             ]
@@ -118,6 +118,7 @@ const data = {
                 "Created more than 3 <b><span class='noted'>SAAS Web Application</span>- [ Hospital Management, Matrimonial Website and Machine Learning Model integration ]</b> using Python's Django Web Framework.",
                 'Data Flow Diagram generating using MySQL Workbench.',
                 "<b><span class='noted'>Live Search</span></b> using AJAX and Django Rest Framework.",
+                "Parsing the Data in Structure Dataset for Better Quality Search.",
                 "Integrated the ML model (Leaves disease ditection) in Web application from scratch.",
             ],
             tools: ['Python', 'Django', 'ML Model Integration', 'Cache and in-memory Process', 'MySQL']
