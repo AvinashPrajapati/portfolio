@@ -115,7 +115,7 @@ const data = {
             end: "8 Feb. 2024",
             responsibilities: [
                 "Component wise development of the application.", 
-                "Created more than 3 <b><span class='noted'>SAAS Web Application</span>- [ Hospital Management ,Matrimonial Website and Machine Learning Model integration ]</b> using Python's Django Web Framework.",
+                "Created more than 3 <b><span class='noted'>SAAS Web Application</span>- [ Hospital Management, Matrimonial Website and Machine Learning Model integration ]</b> using Python's Django Web Framework.",
                 'Data Flow Diagram generating using MySQL Workbench.',
                 "<b><span class='noted'>Live Search</span></b> using AJAX and Django Rest Framework.",
                 "Integrated the ML model (Leaves disease ditection) in Web application from scratch.",
