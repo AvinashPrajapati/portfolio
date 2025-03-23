@@ -68,6 +68,8 @@ ul {
     list-style: disc;
     margin: 5px;
     margin-left: 20px;
+    font-family: system-ui;
+    font-size: 16px;
 }
 .job, .project{
     margin-bottom: 30px;
