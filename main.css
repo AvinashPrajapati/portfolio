@@ -1,5 +1,8 @@
+html{
+    font-family: monospace;
+}
 body {
-    font-family: consolas;
+    font-family: monospace;
     margin: 0;
     padding: 10px;
     background-color: #f4f4f4;
