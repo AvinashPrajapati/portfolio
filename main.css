@@ -186,10 +186,12 @@ ul {
 }
 
 .accordion-content li {
-    background-color: #e7f5e2; /* Light green background for list items */
-    padding: 10px 15px; /* Padding for list items */
-    border-radius: 5px; /* Rounded corners */
-    flex: 1 1 calc(30% - 10px); /* Flex-grow, shrink, and base size */
+    background-color: #bfefae;
+    padding: 5px 10px;
+    font-size: 13px;
+    border-radius: 5px;
+    flex: 1 1 calc(30% - 10px);
+    font-weight: bold;
 }
 
 
