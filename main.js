@@ -13,10 +13,20 @@ const data = {
             title: "Web Developement",
             techs: [
                 {
+                    type: 'Web Frameworks',
+                    tools: [
+                        'Python/Django',
+                        'Flask',
+                        'FastAPI',
+                        'Tornado',
+                    ]
+                },
+                {
                     type: 'Frontend Tools',
                     tools: [
                         'ReactJS',
-                        'HTML & CSS',
+                        'SolidJS',
+                        'HTML5 & CSS3',
                         'JQuery',
                         'Ajax',
                     ]
@@ -25,19 +35,11 @@ const data = {
                     type: 'Backend Tools',
                     tools: [
                         'Python',
+                        'NodeJS',
                         'Javascript',
                     ]
                 },
-                {
-                    type: 'Web Frameworks',
-                    tools: [
-                        'Python/Django',
-                        'NodeJS',
-                        'Flask',
-                        'FastAPI',
-                        'Tornado',
-                    ]
-                }
+                
             ]
         },
         {
@@ -49,7 +51,6 @@ const data = {
                         'FastAPI',
                         'Python(django)-DRF',
                         'Flask API',
-                        'Express',
                     ]
                 }
             ]
@@ -61,9 +62,7 @@ const data = {
                     type: 'Integration in Application',
                     tools: [
                         'Sqlite',
-                        'Postgres',
                         'Mangodb',
-                        'CockroachDB',
                         'Mysql',
                     ]
                 }
@@ -76,10 +75,9 @@ const data = {
                     type: 'Server',
                     tools: [
                         'Web Deployment',
-                        'Software Architechture',
+                        'Software Architechture and Planning',
                         'SaaS Development',
-
-                        'Websockets & channels',
+                        'Websocket/socketio',
                     ]
                 },
                 {
@@ -89,6 +87,7 @@ const data = {
                         'Sqlite3',
                         'SQLAlchemy',
                         'Pydantic',
+                        'Rust Tauri - Desktop App Dev Framework'
                     ]
                 }
             ]
@@ -99,9 +98,8 @@ const data = {
                 {
                     type: 'Language',
                     tools: [
-                        'English',
-                        'Hindi',
-                        'Chinese Elementry',
+                        'English - Fluent',
+                        'Hindi - FLuent',
                     ]
                 },
             ]
@@ -110,52 +108,61 @@ const data = {
     ],
     experience: [
         {
-            title: "Fullstack Developer",
+            title: "Fullstack Web Developer",
             company: "Onprice infotech Pvt Lmtd",
             location: "Bhopal,State - MP, Country - India",
-            start: "2 oct. 2024",
-            end: "15 March. 2024",
+            start: "8 Nov. 2024",
+            end: "8 Feb. 2024",
             responsibilities: [
                 "Component wise development of the application.", 
-                "Created more than 3 <b><span class='noted'>SAAS Web Application</span></b> using Python's Django Web Framework.",
+                "Created more than 3 <b><span class='noted'>SAAS Web Application</span>- [ Hospital Management ,Matrimonial Website and Machine Learning Model integration ]</b> using Python's Django Web Framework.",
                 'Data Flow Diagram generating using MySQL Workbench.',
                 "<b><span class='noted'>Live Search</span></b> using AJAX and Django Rest Framework.",
                 "Integrated the ML model (Leaves disease ditection) in Web application from scratch.",
             ],
-            tools: ['Python', 'Django', 'ML Model Integration', 'Bootstrap', 'MySQL']
+            tools: ['Python', 'Django', 'ML Model Integration', 'Cache and in-memory Process', 'MySQL']
         },
         {
             title: "Volunteer Software Developer",
             company: "College Events",
             location: "BIET Jhansi, India",
-            start: "Feb. 2020",
-            end: "March. 2020",
+            start: "Jan. 2023",
+            end: "March. 2023",
             responsibilities: [
-                'Component wise development of the application.', 
-                'Basic image procesing with OpenCV.',
-                'Team Management.',
+                'Component wise development of the application to avaoid redunded code.', 
+                'Database connection and Database Model Design Using ORM',
+                'Project Monitering to keep up with deadline schedule.',
             ],
-            tools: ['Python','Tkinter','OpenCV', 'PyQT/Python']
+            tools: ['Python','PyQT5 Python','Sqlite', 'SQLAlchemy', 'Pydantic']
         },
     ],
     projects: [
         {
-            title: "E-commerce Site",
-            description: "An e-commerce platform built with React and Node.js.",
-            responsibilities: ['Python', 'Django', 'ML Model Integration', 'Bootstrap', ''],
-            link: "https://yourproject.com",
-            start: "2 Dec. 2024",
-            end: "15 dec. 2024",
-            tools: ['OpenCV-Python', 'PyQT-Python']
+            title: "E-commerce Project Store - Live",
+            description: "An e-commerce platform built where I showcase my projects.",
+            responsibilities: [
+                'Designing project architecture, Dividing the whole project work on daily task basis to meet the schedule time.',
+                'Implemeting the live search from scratch for better user experience.',
+                'Optimized the SQL queries for fast seach results and Design the Database Table Model to maintain the ACID Properties of the Database.',
+                'Implemented the CI/CD of a comment system package without affecting the project code in production.',
+                'Implemented the integration of the stripe payment gateway.',
+                'Third party API integration.'
+            ],
+            link: "zenith.pythonanywhere.com",
+            start: "2 March 2024",
+            end: "15 April 2024",
+            tools: ['Django Python', 'Stripe Integration', 'MySQL', 'CI/CD', 'Query Optimization']
         },
         {
             title: "Personal Portfolio",
             description: "A responsive portfolio website showcasing my skills and projects using Github Pages.",
             responsibilities: [
                 "Git CLI & Github Pages.",
-                "Javascript's Localstorage.",
+                "Javascript's Filebase-storage as Database.",
+                "Implemented the Modular design to maintain the project architecture in best practice.",
+                "Used the Javascript to manipute the DOM and perform the CRUD oprations on the DOM elements on mouse events."
             ],
-            link: "https://yourportfolio.com",
+            link: "https://avinashprajapati.github.io/portfolio/",
             start: "2 oct. 2023",
             end: "15 dec. 2023",
             tools: ['Javascript', 'HTML & CSS']
@@ -171,7 +178,7 @@ const data = {
             },
         ],
     },
-    hobbies: ["Code", "Comic(Manhwa)", "Solving Practical Problems", "Chinese Language"],
+    hobbies: ["Travel", "Yoga", "Music"],
 };
 //
 document.addEventListener("DOMContentLoaded", () => {
