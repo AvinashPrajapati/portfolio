@@ -88,25 +88,25 @@ ul {
 /*     font-family: system-ui;
     font-size: 16px; */
 }
-.job, .project{
+.job, .project, .certificate{
     margin-bottom: 30px;
     border-left: 2px solid green;
     padding-left: 10px;
 }
-.project_items, .exp_items{
+.project_items, .certificate_items, .exp_items{
     padding: 10px;
     padding-top: 0px;
     border: 1px solid #ccc;
 }
-.project:last-child, .job:last-child{
+.certificate:last-child, .project:last-child, .job:last-child{
     margin-bottom: 5px;
 }
-.project a {
+.certificate a, .project a {
     color: #4CAF50;
     text-decoration: none;
 }
 
-.project a:hover {
+.certificate a:hover, .project a:hover {
     text-decoration: underline;
 }
 /*  */
