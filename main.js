@@ -172,9 +172,30 @@ const data = {
     ],
     certificates: [
         {
-            title: "E-commerce Project Store - Live",
-            link: "zenith.pythonanywhere.com",
-            tools: ['Django Python', 'Stripe Integration', 'MySQL', 'CI/CD', 'Query Optimization']
+            title: "Python",
+            link: "https://www.kaggle.com/learn/certification/avinash069/python",
+            tools: ['Python']
+        },
+        {
+            title: "Pandas",
+            link: "https://www.kaggle.com/learn/certification/avinash069/pandas",
+            tools: ['Python', 'Pandas']
+        },
+        {
+            title: "Data Visualization",
+            link: "https://www.kaggle.com/learn/certification/avinash069/data-visualization",
+            tools: ['Python', 'Matplotlib', 'Pandas', 'Seaborn']
+        },
+        {
+            title: "Machine Learning",
+            link: "https://www.kaggle.com/learn/certification/avinash069/intro-to-machine-learning",
+            tools: ['Python', 'Numpy', 'Pandas', 'sklearn']
+        },
+
+        {
+            title: "Internship Certification",
+            link: "https://www.linkedin.com/posts/avinash-prajapati-296918188_internship-onpriceinfotech-fullstachdev-activity-7167871928941105154-enNt?utm_source=share&utm_medium=member_desktop&rcm=ACoAACxGNJIBWxaOswkqdQdTu32MqbUsb0vWnrA",
+            tools: ['Python', 'Django', 'MySQL', 'Machine Learning Model Integration', 'RestAPI', 'SaaS']
         },
     
         
