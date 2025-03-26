@@ -170,6 +170,16 @@ const data = {
         },
         
     ],
+    certificates: [
+        {
+            title: "E-commerce Project Store - Live",
+            link: "zenith.pythonanywhere.com",
+            tools: ['Django Python', 'Stripe Integration', 'MySQL', 'CI/CD', 'Query Optimization']
+        },
+    
+        
+    ],
+    
     education: {
         qualifications: [
             {
@@ -224,6 +234,17 @@ document.addEventListener("DOMContentLoaded", () => {
                                 
                                 <a style="font-size: 12px; font-weight:bold;" href="${project.link}" target="_blank">View Project</a>`;
         projectsList.appendChild(projectDiv);
+    });
+
+    // Populate certificates
+    const certificatesList = document.querySelector(".certificates .certificate_items");
+    data.certificates.forEach((project) => {
+        const certificateDiv = document.createElement("div");
+        certificateDiv.classList.add("certificate");
+        certificateDiv.innerHTML = `<h3 style="margin-bottom: 5px;">${project.title}</h3>
+                                <div class="used_tool"><ul><span><b>Tool used :</b></span>${project.tools.map(tool => `<li>${tool}</li>`).join('')}</ul></div>
+                                <a style="font-size: 12px; font-weight:bold;" href="${project.link}" target="_blank">View Certificate</a>`;
+        certificatesList.appendChild(certificateDiv);
     });
 
     // Populate education
